@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.histories-container .history {
+  border-right: 5px solid rgb(9, 127, 167);
+  border-bottom: 2px solid rgb(4, 75, 99);
+  margin-bottom: 1rem;
+  box-shadow: 2px 15px 10px solid rgb(0, 0, 0);
+}
+
+.history.history-expense {
+  border-right: 5px solid red;
+  border-bottom: 2px solid rgb(252, 89, 89);
+}
+
+.expense-container,
+.budget-container {
+  /* border: 1px solid black; */
+  min-width: 9rem;
+  max-height: 4.8rem;
+  padding: 0.3rem;
+  margin: 0.3rem;
+  font-size: large;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.expense-container {
+  background: rgb(238, 83, 83);
+  color: white;
+}
+.budget-container {
+  background-color: rgb(165, 217, 235);
+  color: black;
+}
